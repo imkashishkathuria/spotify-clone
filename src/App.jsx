@@ -1,3 +1,4 @@
+import Player from "./components/Player"
 import SideBar from "./components/SideBar"
 
 
@@ -7,6 +8,7 @@ const App = () => {
       <div className="h-[90%] flex">
         <SideBar />
       </div>
+      <Player />
 
     </div>
   )
