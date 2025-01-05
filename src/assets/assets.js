@@ -41,6 +41,23 @@ import img16 from './img16.jpg'
 import song1 from  './song1.mp3'
 import song2 from  './song2.mp3'
 import song3 from  './song3.mp3'
+import YiNanPing from './YiNanPing.mp3'
+import OneOfTheGirls from './OneOfTheGirls.mp3'
+import MoonlitFloor from './MoonlitFloor.mp3'
+import lovestory from './lovestory.mp3'
+import cheriCheriLady from './cheriCheriLady.mp3'
+import Faded from './Faded.mp3'
+import HarleysInHawai from './HarleysInHawai.mp3'
+import highSchool from './highSchool.mp3'
+import image1 from './image1.jpg'
+import image2 from './image2.jpg'
+import image3 from './image3.jpg'
+import image4 from './image4.jpg'
+import image5 from './image5.jpg'
+import image6 from './image6.jpg'
+import image7 from './image7.jpg'
+import image8 from './image8.jpg'
+
 
 export const assets = {
     bell_icon,
@@ -117,65 +134,65 @@ export const albumsData = [
 export const songsData = [
     {
         id:0,
-        name: "Song One",
-        image: img1,
-        file:song1,
+        name: "High School",
+        image: image7,
+        file:highSchool,
         desc:"Put a smile on your face with these happy tunes",
         duration:"3:00"
     },
     {
         id:1,
-        name: "Song Two",
-        image: img2,
-        file:song2,
+        name: "Faded",
+        image: image1,
+        file:Faded,
         desc:"Put a smile on your face with these happy tunes",
         duration:"2:20"
     },
     {
         id:2,
-        name: "Song Three",
-        image: img3,
-        file:song3,
+        name: "One of the girls",
+        image: image2,
+        file:OneOfTheGirls,
         desc:"Put a smile on your face with these happy tunes",
         duration:"2:32"
     },
     {
         id:3,
-        name: "Song Four",
-        image: img4,
-        file:song1,
+        name: "Yi nan ping",
+        image: image8,
+        file:YiNanPing,
         desc:"Put a smile on your face with these happy tunes",
         duration:"2:50"
     },
     {
         id:4,
-        name: "Song Five",
-        image: img5,
-        file:song2,
+        name: "Moonlit Floor",
+        image: image6,
+        file:MoonlitFloor,
         desc:"Put a smile on your face with these happy tunes",
         duration:"3:10"
     },
     {
         id:5,
-        name: "Song Six",
-        image: img14    ,
-        file:song3,
+        name: "Harleys in Hawai",
+        image: image5    ,
+        file:HarleysInHawai,
         desc:"Put a smile on your face with these happy tunes",
         duration:"2:45"
     },
     {
         id:6,
-        name: "Song Seven",
-        image: img7,
-        file:song1,
+        name: "Love Story",
+        image: image4,
+        file:lovestory,
         desc:"Put a smile on your face with these happy tunes",
         duration:"2:18"
     },
     {
         id:7,
-        name: "Song Eight",
-        image: img12,
-        file:song2,
+        name: "Cheri Cheri Lady",
+        image: image3,
+        file:cheriCheriLady,
         desc:"Put a smile on your face with these happy tunes",
         duration:"2:35"
     }
